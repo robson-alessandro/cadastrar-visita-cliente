@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"outDir": "src",
+		"target": "ES2019",
+		"noEmitOnError": true
+	},
+	"include": ["appTs/**/*"]
+}

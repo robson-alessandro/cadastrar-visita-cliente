@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./src/index.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>visitas</title>
+	</head>
+	<body>
+		<section class="cadastrar-visita">
+			<h1 class="titulo">cadastrar visita na loja</h1>
+			<form id="form" class="formulario">
+				<input type="text" name="nome-cliente" id="nome-cliente" class="nome" placeholder="nome do cliente" />
+
+				<input type="text" name="nome-vendedora" id="nome-vendedora" placeholder="nome da vendedora" />
+
+				<label for="data-visita">data: </label>
+				<input type="date" name="data-visita" id="data-visita" />
+
+				<p>a cliente realizou a compra?</p>
+				<label for="realizou-compra"><input type="radio" name="realizou-compra" id="realizou-compra" value="true" />sim</label>
+				<label for="nao-realizou"><input type="radio" name="realizou-compra" id="nao-realizou" value="false" />não</label>
+
+				<p>observações:</p>
+				<textarea name="observacoes" id="observacoes" class="campo-observacoes"></textarea>
+				<p>
+					<input type="submit" value="salvar" />
+				</p>
+			</form>
+		</section>
+	</body>
+</html>
