@@ -1,0 +1,4 @@
+[
+	{ "nomeCliente": "maria", "nomeVendedora": "fernanda", "data": "2024-10-09", "realizouCompra": "true", "observacoes": "efetuou a compra" },
+	{ "nomeCliente": "juliana", "nomeVendedora": "fernanda", "data": "2024-10-08", "realizouCompra": "false", "observacoes": "não achou o tamanho" }
+]
